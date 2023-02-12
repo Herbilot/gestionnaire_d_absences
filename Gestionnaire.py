@@ -1,13 +1,6 @@
-import tkinter as tk
-from tkinter import messagebox
-import psycopg2
+from app import *
 
-conn = psycopg2.connect(
-    host="localhost",
-    database="students",
-    user="herbilot",
-    password="123db"
-)
+
 
 nom_utilisateur_entry = None
 password_entry = None

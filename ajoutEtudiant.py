@@ -1,5 +1,7 @@
 from app import * 
 
+
+
 #generation matricule
 matricule = "Etu" + datetime.now().strftime("%d%m%Y%H%M%S")
 
@@ -26,6 +28,9 @@ def enregistrer():
         prenomEntry.delete("0", "end")
         roleEntry.delete("0", "end")
         mdpEntry.delete("0", "end")
+        root.destroy()
+
+        call(['python', 'professeur.py'])
     except Exception as e:
         print(e)
 

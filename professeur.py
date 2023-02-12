@@ -45,7 +45,7 @@ table.place(x=26, y=100, width=1000, height=568)
 
 #recuperer les données dans la base et les afficher dans table
 curr = conn.cursor()
-curr.execute("SELECT * from utilisateur where role='etudiant'")
+curr.execute("SELECT matricule, nom, prenom, nombre_absence from utilisateur where role='etudiant'")
 res = curr.fetchall()
 
 for row in res:

@@ -52,7 +52,7 @@ root.config(background="#ECE8DD")
 lbltitre = Label(root, borderwidth=3, text="Page de connexion", relief=SUNKEN, font=("Montserrat", 25), bg="#579BB1", fg="White")
 lbltitre.pack(fill=X)
 
-lblmatricule = Label(root, text="Nom d'utilisateur", font=("Ubuntu", 16), bg="#ECE8DD", fg="#222222")
+lblmatricule = Label(root, text="Matricule", font=("Ubuntu", 16), bg="#ECE8DD", fg="#222222")
 lblmatricule.place(x=200, y=100)
 matriculeEntry = Entry(root, bd=4, font=("Ubuntu", 14))
 matriculeEntry.place(x=200, y=130, width=350)
