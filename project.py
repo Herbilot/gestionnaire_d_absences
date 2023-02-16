@@ -351,26 +351,6 @@ def professeur():
 
         lire()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     #select record from the treeview
     def selectionner():
         mat_entry.config(state=NORMAL)
